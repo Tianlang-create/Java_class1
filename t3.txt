@@ -1,0 +1,42 @@
+China
+复习
+-Java基础
+-Java基本语法
+- Java面向对象编程
+  - 基本概念：类、对象、成员变量、成员函数、实例化
+  - 对象名的引用性质
+  - 特殊的成员变量和成员函数：构造函数、“析构函数、函数重载、静态变量、静态函数
+  -面向对象的几个特性
+    -封装（Encapsulation）
+    -继承(Inheritance)
+    -多态(Polymorphism)
+- Java应用开发
+  - Java异常处理
+  - Java 常用 API（1）：java.lang包
+  - Java 常用 API（2）：java.util包
+  - Java 多线程开发
+  - JavaIO 操作：java.io
+    - IO：输入输出；输入输出设备是站在内存角度划分
+    - （1）最常见的输入输出单元：文件
+      - 如何表示？java.io.File类
+      - 例子：列出C盘下面所有的文件和文件夹
+      - 支持：文件创建，删除，重命名，不支持复制，移动
+    - （2）读文件：将硬盘上的文件读入到内存进行处理
+    - 例：本文件夹中有一个Test.txt，请将其读入后显示在屏幕
+    - java.io.FileInputStream
+     - 仅仅支持字节流，不太支持双字节的字符
+     - 如果是双字节字符，采用：java.io.FileReader
+   - （3）写文件：将一些内容保存到文件
+    - 例：将“CSU中南大学”这句话，写到Test.txt中
+    - java.io.FileOutputStream
+
+    - 例1：将一个文件t1.txt内容进行加密，加密规则：每个字节的数字+3，比如：China加密后变成了Fklqd，变成t2.txt
+
+
+
+
+
+
+
+
+
